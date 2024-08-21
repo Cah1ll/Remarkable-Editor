@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.progressBar4 = new System.Windows.Forms.ProgressBar();
+            this.progressBar3 = new System.Windows.Forms.ProgressBar();
+            this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -40,9 +43,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
-            this.progressBar4 = new System.Windows.Forms.ProgressBar();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -81,6 +81,33 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(867, 411);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // progressBar4
+            // 
+            this.progressBar4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.progressBar4.Location = new System.Drawing.Point(707, 336);
+            this.progressBar4.Name = "progressBar4";
+            this.progressBar4.Size = new System.Drawing.Size(100, 19);
+            this.progressBar4.TabIndex = 16;
+            this.progressBar4.Visible = false;
+            // 
+            // progressBar3
+            // 
+            this.progressBar3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.progressBar3.Location = new System.Drawing.Point(490, 336);
+            this.progressBar3.Name = "progressBar3";
+            this.progressBar3.Size = new System.Drawing.Size(100, 19);
+            this.progressBar3.TabIndex = 15;
+            this.progressBar3.Visible = false;
+            // 
+            // progressBar2
+            // 
+            this.progressBar2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.progressBar2.Location = new System.Drawing.Point(274, 336);
+            this.progressBar2.Name = "progressBar2";
+            this.progressBar2.Size = new System.Drawing.Size(100, 19);
+            this.progressBar2.TabIndex = 14;
+            this.progressBar2.Visible = false;
             // 
             // checkBox4
             // 
@@ -198,33 +225,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // progressBar2
-            // 
-            this.progressBar2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.progressBar2.Location = new System.Drawing.Point(274, 336);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(100, 19);
-            this.progressBar2.TabIndex = 14;
-            this.progressBar2.Visible = false;
-            // 
-            // progressBar3
-            // 
-            this.progressBar3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.progressBar3.Location = new System.Drawing.Point(490, 336);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(100, 19);
-            this.progressBar3.TabIndex = 15;
-            this.progressBar3.Visible = false;
-            // 
-            // progressBar4
-            // 
-            this.progressBar4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.progressBar4.Location = new System.Drawing.Point(707, 336);
-            this.progressBar4.Name = "progressBar4";
-            this.progressBar4.Size = new System.Drawing.Size(100, 19);
-            this.progressBar4.TabIndex = 16;
-            this.progressBar4.Visible = false;
             // 
             // Editor
             // 
