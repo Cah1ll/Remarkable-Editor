@@ -43,6 +43,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -57,59 +61,64 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.progressBar4, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar3, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar2, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox4, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox3, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox2, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox4, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox3, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar1, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.progressBar4, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.progressBar3, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.progressBar2, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.checkBox4, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.checkBox3, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.checkBox2, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox4, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox3, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.checkBox1, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.button1, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.progressBar1, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.90476F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.952381F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.952381F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.90476F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1153, 496);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // progressBar4
             // 
             this.progressBar4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.progressBar4.Location = new System.Drawing.Point(942, 407);
+            this.progressBar4.Location = new System.Drawing.Point(942, 410);
             this.progressBar4.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar4.Name = "progressBar4";
-            this.progressBar4.Size = new System.Drawing.Size(133, 23);
+            this.progressBar4.Size = new System.Drawing.Size(133, 21);
             this.progressBar4.TabIndex = 16;
             this.progressBar4.Visible = false;
             // 
             // progressBar3
             // 
             this.progressBar3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.progressBar3.Location = new System.Drawing.Point(653, 407);
+            this.progressBar3.Location = new System.Drawing.Point(653, 410);
             this.progressBar3.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(133, 23);
+            this.progressBar3.Size = new System.Drawing.Size(133, 21);
             this.progressBar3.TabIndex = 15;
             this.progressBar3.Visible = false;
             // 
             // progressBar2
             // 
             this.progressBar2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.progressBar2.Location = new System.Drawing.Point(365, 407);
+            this.progressBar2.Location = new System.Drawing.Point(365, 410);
             this.progressBar2.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(133, 23);
+            this.progressBar2.Size = new System.Drawing.Size(133, 21);
             this.progressBar2.TabIndex = 14;
             this.progressBar2.Visible = false;
             // 
@@ -117,7 +126,7 @@
             // 
             this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(948, 376);
+            this.checkBox4.Location = new System.Drawing.Point(948, 381);
             this.checkBox4.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(120, 20);
@@ -129,7 +138,7 @@
             // 
             this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(660, 376);
+            this.checkBox3.Location = new System.Drawing.Point(660, 381);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(120, 20);
@@ -141,7 +150,7 @@
             // 
             this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(372, 376);
+            this.checkBox2.Location = new System.Drawing.Point(372, 381);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(120, 20);
@@ -153,7 +162,7 @@
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Location = new System.Drawing.Point(891, 35);
+            this.pictureBox4.Location = new System.Drawing.Point(891, 72);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(235, 302);
@@ -166,7 +175,7 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(314, 35);
+            this.pictureBox2.Location = new System.Drawing.Point(314, 72);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(235, 302);
@@ -179,7 +188,7 @@
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Location = new System.Drawing.Point(602, 35);
+            this.pictureBox3.Location = new System.Drawing.Point(602, 72);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(235, 302);
@@ -192,7 +201,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 35);
+            this.pictureBox1.Location = new System.Drawing.Point(26, 72);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(235, 302);
@@ -205,7 +214,7 @@
             // 
             this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(84, 376);
+            this.checkBox1.Location = new System.Drawing.Point(84, 381);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(120, 20);
@@ -217,7 +226,7 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(948, 443);
+            this.button1.Location = new System.Drawing.Point(948, 444);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 43);
@@ -228,16 +237,64 @@
             // progressBar1
             // 
             this.progressBar1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.progressBar1.Location = new System.Drawing.Point(77, 407);
+            this.progressBar1.Location = new System.Drawing.Point(77, 410);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(133, 23);
+            this.progressBar1.Size = new System.Drawing.Size(133, 21);
             this.progressBar1.TabIndex = 13;
             this.progressBar1.Visible = false;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(82, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(123, 20);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Reset Screen";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(368, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(128, 20);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Out of Battery";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(679, 25);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 20);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Sleeping";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(1190, 31);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(141, 25);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Powered Off";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // Editor
             // 
@@ -280,5 +337,9 @@
         private System.Windows.Forms.ProgressBar progressBar4;
         private System.Windows.Forms.ProgressBar progressBar3;
         private System.Windows.Forms.ProgressBar progressBar2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }
