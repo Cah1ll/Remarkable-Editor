@@ -190,6 +190,85 @@ namespace Remarkable_Editor
             }
         }
 
-        
+        private void pictureBox2_DoubleClick(object sender, EventArgs e)
+        {
+            PictureBox pictureBox = sender as PictureBox;
+
+            if (pictureBox.Image != null && pictureBox.Tag != null)
+            {
+                string imagePath = pictureBox2.Tag.ToString();
+
+                if (File.Exists(imagePath))
+                {
+                    // Open the image using the default image viewer
+                    try
+                    {
+                        Process.Start(new ProcessStartInfo(imagePath) { UseShellExecute = true });
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error opening image: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Image file not found.");
+                }
+            }
+        }
+
+        private void pictureBox3_DoubleClick(object sender, EventArgs e)
+        {
+            PictureBox pictureBox = sender as PictureBox;
+
+            if (pictureBox.Image != null && pictureBox.Tag != null)
+            {
+                string imagePath = pictureBox3.Tag.ToString();
+
+                if (File.Exists(imagePath))
+                {
+                    // Open the image using the default image viewer
+                    try
+                    {
+                        Process.Start(new ProcessStartInfo(imagePath) { UseShellExecute = true });
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error opening image: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Image file not found.");
+                }
+            }
+        }
+
+        private void pictureBox4_DoubleClick(object sender, EventArgs e)
+        {
+            PictureBox pictureBox = sender as PictureBox;
+
+            if (pictureBox.Image != null && pictureBox.Tag != null)
+            {
+                string imagePath = pictureBox4.Tag.ToString();
+
+                if (File.Exists(imagePath))
+                {
+                    // Open the image using the default image viewer
+                    try
+                    {
+                        Process.Start(new ProcessStartInfo(imagePath) { UseShellExecute = true });
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error opening image: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Image file not found.");
+                }
+            }
+        }
     }
 }
