@@ -68,7 +68,7 @@ namespace Remarkable_Editor
             {
                 Properties.Settings.Default.SaveLogin = true;
                 Properties.Settings.Default.Username = textBox1.Text;
-                Properties.Settings.Default.Password = textBox3.Text;  // Ideally, encrypt the password
+                Properties.Settings.Default.Password = textBox3.Text;  
             }
             else
             {
