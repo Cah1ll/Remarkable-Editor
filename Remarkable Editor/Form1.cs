@@ -149,5 +149,6 @@ namespace Remarkable_Editor
         {
             Close();
         }
+
     }
 }
